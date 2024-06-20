@@ -1,0 +1,238 @@
+body {
+  background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Titillium Web", sans-serif;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== general style ===== */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#error-message{
+  color: red;
+}
+
+h1 {
+    color: #fff;
+}
+
+/* ===== style home page ===== */
+.text-home::after {
+  content: "";
+  animation: typing 4s infinite;
+  color: #fff;
+}
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+
+  3% {
+    content: "W|";
+  }
+
+  6% {
+    content: "We|";
+  }
+
+  9% {
+    content: "Wel|";
+  }
+
+  12% {
+    content: "Welc|";
+  }
+
+  15% {
+    content: "Welco|";
+  }
+
+  18% {
+    content: "Welcom|";
+  }
+
+  21% {
+    content: "Welcome|";
+  }
+
+  24% {
+    content: "Welcom|";
+  }
+
+  27% {
+    content: "Welco|";
+  }
+
+  30% {
+    content: "Welc|";
+  }
+
+  33% {
+    content: "Wel|";
+  }
+
+  36% {
+    content: "We|";
+  }
+
+  39% {
+    content: "W|";
+  }
+
+  42% {
+    content: "|";
+  }
+
+  45% {
+    content: "B|";
+  }
+
+  48% {
+    content: "Bo|";
+  }
+
+  51% {
+    content: "Bon|";
+  }
+
+  54% {
+    content: "Bonj|";
+  }
+
+  57% {
+    content: "Bonjo|";
+  }
+
+  60% {
+    content: "Bonjou|";
+  }
+
+  63% {
+    content: "Bonjour|";
+  }
+
+  66% {
+    content: "Bonjou|";
+  }
+
+  69% {
+    content: "Bonjo|";
+  }
+
+  72% {
+    content: "Bonj|";
+  }
+
+  75% {
+    content: "Bon|";
+  }
+
+  78% {
+    content: "Bo|";
+  }
+
+  81% {
+    content: "B|";
+  }
+
+  84% {
+    content: "|";
+  }
+
+  88% {
+    content: "H|";
+  }
+
+  92% {
+    content: "Hi|";
+  }
+
+  96% {
+    content: "H|";
+  }
+
+  100% {
+    content: "|";
+  }
+}
+
+.btn-style {
+  border-radius: 15px;
+  border: 2px solid #000;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-style:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/* ===== end style home page ===== */
+
+/* ===== style lear background ===== */
+.lear {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ===== style card or group ===== */
+.group {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(10px);
+
+  & .btn-sign {
+    border: 1px solid #c81e1e;
+    color: #fff;
+    transition: 0.5s;
+
+    &:hover {
+      background-image: linear-gradient(to right, #c81e1e, #b4531b) !important;
+      border: 1px solid #000;
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+
+  & a.text-end- {
+    transition: 0.5s;
+    color: #fff;
+
+    &:hover {
+      color: #c81e1e;
+    }
+  }
+}
+
+/* ===== style input and textarea ===== */
+input,
+textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+
+  &::placeholder,
+  &::placeholder {
+    color: rgba(182, 182, 182, 0.5) !important;
+  }
+
+  &:focus,
+  &:focus {
+    transition: 0.5s;
+    border-color: #d95c39 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.08rem #d95c399a !important;
+    transform: scale(1.01);
+  }
+}

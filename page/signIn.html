@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Login</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <div class="lear">
+        <span class="d-none" id="username"></span>
+        <div class="container d-flex w-100 h-100">
+            <div class="group m-auto w-75 p-5 text-center align-items-center justify-content-center">
+                <h1>Smart Login System</h1>
+                <form id="form" onkeyup="validation" onsubmit="login(event)">
+                    <input id="user-email" class="form-control my-3" placeholder="Enter your email" type="text">
+                    <input id="user-password" class="form-control my-3" placeholder="Enter your password" type="password">
+                    <p id="error-message"></p>
+
+                    <button type="submit" id="submit-btn" class="btn btn-sign w-100 my-3">Login</button>
+                    <p class="text-white">Don’t have an account? <a class="text-end-" href="./signUp.html">Sign Up</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- link javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="../js/signIn.js"></script>
+</body>
+
+</html>
